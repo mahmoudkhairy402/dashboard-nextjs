@@ -1,0 +1,49 @@
+.Transaction {
+  background-color: var(--bodySecondary);
+  padding: 15px;
+  border-radius: 8px;
+  max-height: 210px;
+  overflow-y: scroll;
+}
+.title {
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.table {
+  margin-top: 10px;
+  width: 100%;
+  height: fit-content;
+}
+table {
+  height: 100%;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.table table th,
+.table table td {
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.table table td {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.status {
+  border-radius: 4px;
+  text-align: center;
+}
+.pending {
+  color: rgba(251, 251, 32, 0.674);
+}
+.done {
+  color: rgba(0, 128, 0, 0.702);
+}
+.cancelled {
+  color: rgba(247, 80, 80, 0.6);
+}

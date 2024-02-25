@@ -1,0 +1,48 @@
+.card {
+  color: var(--textWhite);
+  padding: 10px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: first;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 72, 0, 0.43),
+    var(--bodyPrimary)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.card:hover {
+  /* background-image: linear-gradient(
+    to right,
+    rgba(255, 72, 0, 0.43) 70%,
+    var(--bodyPrimary)
+  ); */
+  background-color: rgba(190, 57, 5, 0.43);
+}
+.card .icon {
+  color: var(--textWhite);
+  font-size: 22px;
+  color: greenyellow;
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 14px;
+}
+.userNum {
+  font-size: 18px;
+  font-family: 600;
+}
+.note {
+  font-size: 14px;
+}
+.note span {
+  color: greenyellow;
+}

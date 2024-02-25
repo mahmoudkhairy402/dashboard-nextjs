@@ -1,0 +1,71 @@
+.sidebar {
+  background-color: var(--bodySecondary);
+  height: 100%;
+  overflow-y: scroll;
+  /* padding: 10px; */
+}
+
+.ulParent {
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ulParent li {
+  padding: 0;
+  width: 100%;
+}
+.ulParent li .title {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.ulParent li ul {
+  padding: 0;
+}
+.ulParent li ul li {
+  margin: 0;
+  transition: 0.2s;
+  padding: 10px;
+}
+.ulParent li ul li a {
+  font-weight: 600;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  text-transform: capitalize;
+}
+
+.ulParent li ul li:hover {
+  background-color: var(--selected);
+}
+.ulParent li ul li .icon {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.user {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user .userInfo .name {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user .userInfo .role {
+  font-size: 12px;
+  opacity: 0.7;
+}

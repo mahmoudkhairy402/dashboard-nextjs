@@ -1,0 +1,42 @@
+.updateContainer {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 85%;
+  padding: 10px;
+}
+.viewside {
+  background-color: var(--bodySecondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  height: 90%;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.image {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+
+.username {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 90%;
+  row-gap: 20px;
+  background-color: var(--bodySecondary);
+  padding: 15px;
+  border-radius: 8px;
+}

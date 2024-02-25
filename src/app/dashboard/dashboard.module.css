@@ -1,0 +1,33 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  max-height: calc(100vh - 60px);
+  overflow-y: hidden;
+}
+.aside .latestcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 15px;
+  background-color: var(--bodySecondary);
+  text-transform: capitalize;
+  line-height: 1.2;
+  border-radius: 4px;
+}
+
+.latestcard .helpsentence {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.content {
+  max-height: calc(100% - 48px);
+  /* overflow-y: scroll; */
+}
+
+.containerall {
+  max-height: 100vh;
+}
