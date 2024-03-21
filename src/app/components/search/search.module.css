@@ -1,10 +1,10 @@
 .search input[type="search"] {
   padding: 6px 14px;
-  background-color: var(--selected);
   border: none;
   border-radius: 4px;
   margin-right: 20px;
   color: var(--textWhite);
+  /* background-color: var(--selected); */
 }
 .search input[type="search"]::placeholder {
   color: var(--textWhite);

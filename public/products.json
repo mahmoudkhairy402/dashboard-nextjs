@@ -1,0 +1,229 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "mobile",
+      "description": "mobile",
+      "date": {
+        "CreatedAt": "2024-03-04",
+        "updatedAt": "2024-03-13",
+        "UpdatedAt": "2024-03-13 02:44:05"
+      },
+      "price": "5000",
+      "inStock": "true",
+      "color": "green",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550",
+      "cat": "mobile"
+    },
+    {
+      "id": "2",
+      "title": "hp",
+      "description": "hp screen ,hd colors",
+      "date": {
+        "CreatedAt": "2024-03-04",
+        "updatedAt": "2024-03-13"
+      },
+      "price": "4000",
+      "inStock": "false",
+      "color": "",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550",
+      "cat": "screen"
+    },
+    {
+      "id": "01ac",
+      "title": "ddddddddd",
+      "description": "gaming",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "iphone",
+      "price": "4000",
+      "inStock": "true",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "01ad",
+      "title": "dell",
+      "description": "",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "screen",
+      "price": "4000",
+      "inStock": "false",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "f8c3",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "9b02",
+      "title": "element with id 200 (updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "mobile",
+      "price": "6",
+      "inStock": "false",
+      "color": "green",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "9e03",
+      "title": "dell latitude",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "mobile",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "0a52",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "b90b",
+      "title": "updated",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "laptop",
+      "price": "2",
+      "inStock": "true",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "7a33",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "e889",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "f23f",
+      "title": "element with id 200 (updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "mobile",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "61f1",
+      "title": "element with id 200 (updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "iphone",
+      "price": "3",
+      "inStock": "true",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "a097",
+      "title": "element with id 200 (updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-10"
+      },
+      "cat": "iphone",
+      "price": "3",
+      "inStock": "true",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "ff0d",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-11"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "1e21",
+      "title": "Margherita (Updated)",
+      "description": "Cheese",
+      "date": {
+        "CreatedAt": "2024-03-11"
+      },
+      "cat": "",
+      "price": 3,
+      "inStock": false,
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    },
+    {
+      "id": "9d67",
+      "title": "dell latitude",
+      "description": "",
+      "date": {
+        "CreatedAt": "2024-03-11",
+        "UpdatedAt": "2024-03-13 05:56:09"
+      },
+      "cat": "laptop",
+      "price": "1238",
+      "inStock": "true",
+      "color": "gray",
+      "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg?width=550"
+    }
+  ]
+}

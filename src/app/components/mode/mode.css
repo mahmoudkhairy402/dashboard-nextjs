@@ -1,0 +1,22 @@
+.mode {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+}
+.light {
+  color: #f41905a7;
+  background-color: transparent;
+  border: 1px solid #f41905a7;
+}
+.light svg {
+  width: 22px;
+  height: 22px;
+}

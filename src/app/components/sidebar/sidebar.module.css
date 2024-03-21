@@ -50,6 +50,7 @@
   padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
 }
 .user .image {
@@ -68,4 +69,35 @@
 .user .userInfo .role {
   font-size: 12px;
   opacity: 0.7;
+}
+
+.mode {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid #373535cd;
+  transition: 0.5s;
+  transform: scale(0.9);
+  background-color: rgba(245, 245, 220, 0.471);
+  transition: 0.3s;
+}
+
+.mode:hover {
+  box-shadow: 0px 1px 3px 1px var(--light-color);
+}
+.light {
+  /* transform: scale(1); */
+  color: #f22707cf;
+  background-color: transparent;
+  border: 1px solid #f06915cf;
+  /* background-color: #4d4b4b; */
+}
+.light svg {
+  width: 20px;
+  height: 20px;
 }

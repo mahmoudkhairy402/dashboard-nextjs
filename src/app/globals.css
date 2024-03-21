@@ -12,6 +12,13 @@
   --textblack: #000;
 }
 
+.light {
+  --textblack: #fff;
+  --textWhite: #182237;
+  --bodyPrimary: rgb(236, 229, 222);
+  --bodySecondary: #c1c7d1;
+}
+
 body {
   background-color: var(--bodyPrimary);
   color: var(--textWhite);
@@ -47,6 +54,7 @@ form textarea {
   border-radius: 6px;
   outline: none;
   border: none;
+  /* height: 70%; */
 }
 
 form select,
@@ -80,4 +88,52 @@ form input[type="submit"]:hover {
 }
 form input::placeholder {
   font-size: 14px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.submit {
+  background-color: rgba(205, 92, 92, 0.578);
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  text-transform: capitalize;
+  color: #fff;
+  height: 40px;
+}
+.submit:hover {
+  background-color: rgba(205, 92, 92, 0.993);
+}
+
+.error {
+  text-indent: 6px;
+  font-size: 12px;
+  color: rgb(223, 29, 29);
+}
+
+.mode {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid #373535cd;
+  transition: 0.5s;
+  transform: scale(0.9);
+  background-color: #4d4b4b;
+  transition: 0.3s;
+}
+
+.mode:hover {
+  box-shadow: 0px 1px 3px 1px var(--light-color);
 }
